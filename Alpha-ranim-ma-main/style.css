@@ -1,0 +1,65 @@
+#AF {color: chocolate;}
+body {background-color: bisque;}
+p {color: blue;}
+#p2{
+color: rgb(8, 152, 3);
+}
+            
+
+
+
+#Shirts {background-color: gold;}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: bisque;
+
+  color: bisque;
+}
+
+li {
+  float: left;
+  color: #111;
+}
+
+li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 185px;
+  text-decoration: none;
+}
+
+li a:hover {
+ background-color: bisque;}
+
+
+ .row{
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+ }
+ .row div img {
+  width: 100%;
+  object-fit: cover;  
+ }
+ .row div {
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ }
+
+ .row {
+    display: flex;
+    position: relative;
+ }
+.AFF{
+  margin-left:10% ;
+}
